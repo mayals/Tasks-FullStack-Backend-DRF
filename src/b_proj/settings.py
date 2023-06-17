@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     "todoApp.apps.TodoappConfig",
     # https://www.django-rest-framework.org/#installation
     'rest_framework',
+    # https://pypi.org/project/django-cors-headers/
+    "corsheaders",
 
 
 ]
@@ -48,6 +50,8 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    # https://pypi.org/project/django-cors-headers/
+    "corsheaders.middleware.CorsMiddleware",
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
