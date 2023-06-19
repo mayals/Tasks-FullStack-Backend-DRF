@@ -1,5 +1,5 @@
 # new-FullStak
-
+This is simple project only for learning how using  django(backend) + react(frontend)
 
 
 ## https://github.com/django/django
