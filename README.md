@@ -1,4 +1,4 @@
-# new-FullStak
+# Tasks-FullStack-Backend-DRF
 This is simple project only for learning how using  django(backend) + react(frontend)
 
 
